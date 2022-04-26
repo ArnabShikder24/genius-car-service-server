@@ -107,7 +107,7 @@ run().catch(console.dir)
 
 
 app.get('/', (req, res) => {
-    res.send('genius-car-service server in Running');
+    res.send('genius-car-service Server in Running Successfuly');
 });
 
 app.listen(port, () => console.log('Server Running on', port));
